@@ -1,0 +1,96 @@
+.App {
+  background-color: #351c75;
+}
+
+.body {
+  background-color: #351c75;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: stretch;
+  padding: 1rem;
+  background-color: white;
+}
+
+.question-container {
+  text-align: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+h1 {
+  padding: 1rem 2rem;
+  margin: 0;
+}
+h2 {
+  padding: 0.5rem 2rem;
+  margin: 0;
+}
+h3 {
+  padding: 0.5rem 2rem;
+  margin: 0;
+}
+
+.inputs {
+  margin-bottom: 2rem;
+}
+
+.multiple-choice.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.multiple-choice.inputs > .input-container {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.matching.inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side,
+.right-side {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.left-side > .input-container,
+.right-side > .input-container {
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.left-side > .input-container:hover,
+.right-side > .input-container:hover {
+  background-color: #efefef;
+}
+
+.selected-item {
+  font-weight: bold;
+  color: #351c75;
+}
+
+.fill-in-container{
+    width: 100%;
+    display: flex;
+}
+
+.fill-in-input{
+    width: 100%;
+    padding: 0.5rem 0.2rem;
+    margin-bottom: 1rem;
+    
+}
